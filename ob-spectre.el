@@ -32,6 +32,8 @@
 
 (require 'ob)
 
+(define-derived-mode spectre-mode spice-mode "Spectre")
+
 (defvar org-babel-spectre-command "spectre"
   "Name of the command to execute spectre.")
 
